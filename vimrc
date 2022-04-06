@@ -1,5 +1,8 @@
 set nu
 colorscheme elflord
+if &diff
+    colorscheme pablo
+endif
 
 " tab control
 set smartindent
